@@ -1,0 +1,11 @@
+number = int(input("WRITE YOUR NUMBER: "))
+if number>1 and number<10:
+    print(number,"IS A ONE DIGIT NUMBER")
+if number>10 and number<100:
+    print(number,"IS TWO DIGIT NUMBER")
+if number>100 and number<1000:
+    print(number,"IS THREE DIGIT NUMBER")
+if number>1000 and number<10000:
+    print(number,"IS FOUR DIGIT NUMBER")
+if number>10000 and number<100000:
+    print(number,"IS A FIVE DIGIT NUMBER")
